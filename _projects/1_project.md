@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 1
-description: with background image
-img: assets/img/12.jpg
+title: Identifiability analysis using variational networks
+description: 
+img: assets/img/publication_preview/inverse.png
 importance: 1
-category: work
+category: SciML
 related_publications: true
 ---
 

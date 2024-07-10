@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2024-07-10 
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+I will give a poster presentation at [UQ-MLIP 2024](https://uq-mlip2.usacm.org/home) in Arlington, VA ! The topic is: "Analyzing Cardiovascular Model Identifiability with Deep Generative Networks".
