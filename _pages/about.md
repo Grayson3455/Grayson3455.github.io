@@ -22,4 +22,4 @@ My name is Guoxiang (Grayson) Tong, and I am a Ph.D. candidate at the University
 
 Previously, I studied mechanical engineering at the [University of Colorado at Boulder](https://www.colorado.edu/engineering/academics/undergraduate-programs/mechanical-engineering). My master's thesis was on divergence-conforming Isogeometric analysis of incompressible turbulent flows, advised by [Dr. John A. Evans](https://www.colorado.edu/isogeometric/john-evans) and [Dr. David Kamensky](https://www.linkedin.com/in/david-kamensky-b1901a192/).
 
-**I am actively seeking Postdoctoral positions starting in summer/fall 2025.**
+**I am actively seeking Postdoctoral/Research positions starting in Summer/Fall 2025.**
