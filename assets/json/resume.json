@@ -23,7 +23,7 @@
     {
       "institution": "Civil Aviation University of China",
       "location": "Tianjin, China",
-      "area": "Aeronautical Engineering",
+      "area": "Aeronautical Engineering -- Flight Vehicle Propulsion",
       "studyType": "BE",
       "startDate": "2013-09-01",
       "endDate": "2017-06-15",
@@ -31,6 +31,10 @@
     }
   ],
   "awards": [
+    {
+      "title": "Outstanding PhD Research Award",
+      "date": "2024-11"
+    },
     {
       "title": "UQ-MLIP 2024 Conference Travel Award",
       "date": "2024-08",
