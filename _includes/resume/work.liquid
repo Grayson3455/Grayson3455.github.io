@@ -3,12 +3,12 @@
   {% for content in work %}
     <li class="list-group-item">
       <div class="row">
+        <!-- Date Column -->
         <div class="col-xs-2 cl-sm-2 col-md-2 text-center date-column">
           {% if content.startDate %}
             {% assign startDate = content.startDate | split: '-' | slice: 0, 2 | join: '.' %}
             {% assign endDate = content.endDate | split: '-' | slice: 0, 2 | join: '.' | default: 'Present' %}
-            {% assign date = startDate | append: ' - ' %}
-            {% assign date = date | append: endDate %}
+            {% assign date = startDate | append: ' - ' | append: endDate %}
           {% else %}
             {% assign date = '' %}
           {% endif %}
@@ -32,19 +32,37 @@
             </tbody>
           </table>
         </div>
+
+        <!-- Main Content Column -->
         <div class="col-xs-10 cl-sm-10 col-md-10 mt-2 mt-md-0">
+          <!-- Position -->
           <h6 class="title font-weight-bold ml-1 ml-md-4">
             <a href="{{ content.url }}">{{ content.position }}</a>
           </h6>
-          <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem">{{ content.name }}</h6>
-          <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem; font-style: italic">{{ content.summary }}</h6>
-          <ul class="items">
-            {% for item in content.highlights %}
-              <li>
-                <span class="item">{{ item }}</span>
-              </li>
-            {% endfor %}
-          </ul>
+
+          <!-- Company Name + Icon -->
+          <div class="ml-1 ml-md-4" style="font-size: 0.95rem; display: flex; justify-content: space-between; align-items: center;">
+            <span>{{ content.name }}</span>
+            {% if content.icon %}
+              <img src="{{ content.icon }}" alt="" style="height: 50px; width: auto; margin-left: 10px;">
+            {% endif %}
+          </div>
+
+          <!-- Summary -->
+          {% if content.summary %}
+            <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem; font-style: italic">{{ content.summary }}</h6>
+          {% endif %}
+
+          <!-- Highlights -->
+          {% if content.highlights %}
+            <ul class="items">
+              {% for item in content.highlights %}
+                <li>
+                  <span class="item">{{ item }}</span>
+                </li>
+              {% endfor %}
+            </ul>
+          {% endif %}
         </div>
       </div>
     </li>

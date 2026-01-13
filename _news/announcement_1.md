@@ -1,8 +1,10 @@
 ---
 layout: post
-date: 2024-07-10 
+date: 2026-01-10 
 inline: true
 related_posts: false
 ---
 
-I gave a lightning talk and a poster presentation at [UQ-MLIP 2024](https://uq-mlip2.usacm.org/home) in Arlington, VA ! The topic is: "Analyzing Cardiovascular Model Identifiability with Deep Generative Networks".
+I will present my research at [SIAM-UQ 2026](https://www.siam.org/conferences-events/siam-conferences/uq26/) in Minneapolis, Minnesota! The topic is: "Uncertainty quantification in soft biological tissue growth and remodeling". I am also honored to serve as the session chair of Applications-II.
+
+

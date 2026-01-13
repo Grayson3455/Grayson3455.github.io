@@ -1,10 +1,19 @@
 {
+  "work": [
+    {
+      "name": "Stanford University",
+      "position": "Postdoctoral Researcher",
+      "location": "Stanford, California",
+      "url": "https://cbcl.stanford.edu/",
+      "startDate": "2025-06-23",
+      "icon": "/assets/img/Stanford-logo.png"
+    }
+  ],
   "education": [
     {
       "institution": "University of Notre Dame",
       "location": "Notre Dame, Indiana",
       "url": "https://www.nd.edu/",
-      "area": "Applied and Computational Mathematics and Statistics",
       "studyType": "PhD",
       "startDate": "2020-08-01",
       "endDate": "2025-05-15",
@@ -14,7 +23,6 @@
       "institution": "University of Colorado Boulder",
       "location": "Boulder, Colorado",
       "url": "https://www.colorado.edu/",
-      "area": "Mechanical Engineering",
       "studyType": "MS",
       "startDate": "2017-08-20",
       "endDate": "2020-05-15",
@@ -23,7 +31,6 @@
     {
       "institution": "Civil Aviation University of China",
       "location": "Tianjin, China",
-      "area": "Aeronautical Engineering -- Flight Vehicle Propulsion",
       "studyType": "BE",
       "startDate": "2013-09-01",
       "endDate": "2017-06-15",
